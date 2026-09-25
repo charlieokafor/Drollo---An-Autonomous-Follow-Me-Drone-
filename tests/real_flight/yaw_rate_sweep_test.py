@@ -1,13 +1,8 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Historical constants and phase purpose are preserved where available.
-# EXPERIMENTAL UAV SOFTWARE — verify configuration and test safely.
-
 from pymavlink import mavutil
 import math
 import time
 
-# Extracted as a standalone file from the project's yaw-speed tuning work.
+
 # 3 deg/s was the first fixed value; 12 deg/s became the successful search rate.
 YAW_RATES_DEG_S = [3.0, 4.0, 6.0, 8.0, 12.0]
 SECONDS_PER_RATE = 2.5
