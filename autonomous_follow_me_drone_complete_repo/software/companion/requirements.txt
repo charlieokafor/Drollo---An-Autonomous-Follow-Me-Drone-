@@ -1,3 +1,0 @@
-# Dependencies used by keep_person_centered.py
-depthai
-pymavlink
