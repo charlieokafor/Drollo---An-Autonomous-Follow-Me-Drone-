@@ -2,8 +2,9 @@
 
 > **From simulation to a real flying computer-vision prototype using ArduPilot, MAVLink, Raspberry Pi, and OAK-D Lite.**
 
+**Author:** Chijindu C. Okafor  
 **Project status:** Current prototype phase complete / paused for further development  
-**Main build and test period:** April–August 2026  
+**Main build and test period:** April–June 2026  
 **Current write-up:** September 2026
 
 ---
@@ -847,113 +848,13 @@ The next major milestone would be to finish the local-positioning stack with pro
 
 ---
 
-# 28. Suggested Repository Structure
-
-```text
-autonomous-follow-me-drone/
-│
-├── README.md
-├── docs/
-│   ├── architecture.md
-│   ├── hardware-and-wiring.md
-│   ├── sitl-testing.md
-│   ├── optical-flow-experiments.md
-│   ├── flight-testing.md
-│   └── failures-and-lessons.md
-│
-├── software/
-│   ├── companion/
-│   │   ├── vision/
-│   │   ├── mavlink/
-│   │   └── autonomy/
-│   └── mobile-app/
-│
-├── ardupilot/
-│   ├── parameter-snapshots/
-│   └── firmware-notes/
-│
-├── logs/
-│   └── selected-flight-logs/
-│
-├── diagrams/
-│   └── system-architecture/
-│
-└── media/
-    ├── sitl/
-    ├── bench-tests/
-    ├── computer-vision/
-    ├── flight-tests/
-    ├── crashes-and-debugging/
-    └── final-demo/
-```
-
-Do not upload every giant raw log to the main repository unless it is useful. Large binary logs and videos can be placed in GitHub Releases, Git LFS, YouTube/unlisted video links, or a separate media folder depending on size.
-
----
-
-# 29. Video / Evidence Section
-
-The strongest version of this README should show the progression visually.
-
-Replace the placeholders below with the actual GitHub video links, images, or thumbnails.
-
-### 1. SITL — autonomous takeoff / motion / landing
-
-> **Video:** `media/sitl/01_sitl_takeoff_scan_land.mp4`
-
-What it demonstrates: the autonomy logic controlling ArduCopter before real-flight testing.
-
-### 2. OAK-D person detection
-
-> **Video:** `media/computer-vision/02_oakd_person_detection.mp4`
-
-What it demonstrates: onboard person detection and confidence output.
-
-### 3. Real FC / RC / MAVLink bench test
-
-> **Video:** `media/bench-tests/03_rc_python_fc_test.mp4`
-
-What it demonstrates: physical RC trigger reaching Python and causing a real flight-controller action.
-
-### 4. Real drone movement tests
-
-> **Video:** `media/flight-tests/04_yaw_altitude_forward_back.mp4`
-
-What it demonstrates: the individual motion primitives later used by autonomous behavior.
-
-### 5. Person-centering test
-
-> **Video:** `media/flight-tests/05_person_yaw_tracking.mp4`
-
-What it demonstrates: camera detections converted into controlled yaw commands.
-
-### 6. Optical-flow / LiDAR test
-
-> **Video:** `media/flight-tests/06_optical_flow_rangefinder.mp4`
-
-What it demonstrates: the GPS-denied navigation branch and rangefinder integration.
-
-### 7. Crash / debugging evidence
-
-> **Video:** `media/crashes-and-debugging/07_calibration_crash.mp4`
-
-I would include this rather than hiding it. It shows that the repository is a real engineering record and gives context to the lessons learned.
-
-### 8. Final GPS-assisted demonstration
-
-> **Video:** `media/final-demo/08_final_demo.mp4`
-
-What it demonstrates: the most complete real-world state reached before the project was paused.
-
----
-
-# 30. Technologies
+# 28. Technologies
 
 `ArduPilot` · `ArduCopter` · `MAVLink` · `pymavlink` · `Python` · `Raspberry Pi` · `DepthAI` · `OAK-D Lite` · `Computer Vision` · `Stereo Depth` · `Optical Flow` · `LiDAR / Rangefinder` · `GPS` · `EKF` · `SITL` · `MAVProxy` · `Mission Planner` · `ELRS` · `Expo / React Native` · `Embedded Linux`
 
 ---
 
-# 31. Closing Note
+# 29. Closing Note
 
 The biggest change in my understanding during this project was realizing that an autonomous follow-me drone is not primarily a "person detection" problem.
 
@@ -974,3 +875,19 @@ The real problem is building a system that can simultaneously answer:
 Building this prototype gave me hands-on experience with all of those questions.
 
 That is why I consider it one of the most valuable engineering projects I have worked on so far.
+
+---
+
+# Author
+
+**Chijindu C. Okafor**
+
+This project was designed, built, programmed, integrated, tested, repaired, and documented as a hands-on autonomous UAV research and engineering project.
+
+For professional inquiries, collaboration, or questions about the project, please contact me through my GitHub or LinkedIn profile associated with this repository.
+
+---
+
+## Project Disclaimer
+
+This repository documents an experimental research prototype. It is not a certified commercial flight system, and the software, hardware configurations, parameters, and test procedures should not be treated as production-ready safety guidance. UAV testing should always be performed in accordance with applicable aviation regulations, local laws, equipment limitations, and appropriate safety procedures.
