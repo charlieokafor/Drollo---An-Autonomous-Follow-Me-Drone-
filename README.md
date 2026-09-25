@@ -4,7 +4,7 @@
 
 **Author:** Chijindu C. Okafor  
 **Project status:** Current prototype phase complete / paused for further development  
-**Main build and test period:** February–August 2026  
+**Main build and test period:** April–June 2026  
 **Current write-up:** September 2026
 
 ---
@@ -35,6 +35,190 @@ The project went through almost every stage of a real robotics project:
 This repository is intentionally not presented as a perfect finished consumer drone. It is the engineering record of a prototype that progressed from an idea to simulation, then to real hardware and real flight.
 
 For me, the project was a success because the core architecture was proven end-to-end: **vision → companion computer → MAVLink → flight controller → aircraft response**. The remaining limitations were mainly around precise low-altitude position estimation and the time required to finish optical-flow calibration and tuning to the standard I wanted.
+
+---
+
+
+# Repository Structure and Code Guide
+
+Now that the development files have been collected into one repository, the codebase is organized to show the **engineering progression** rather than presenting only one final script.
+
+## Repository at a glance
+
+The current archive contains:
+
+- **58 Python scripts** across the companion software, real-flight tests, diagnostics, computer-vision tests, motion-control tests, and SITL;
+- **27 real-flight / hardware-in-the-loop test scripts**;
+- **7 diagnostics scripts**;
+- **8 OAK-D / vision scripts**;
+- **7 SITL scripts**;
+- **6 dedicated motion-control scripts**;
+- **3 representative ArduPilot parameter snapshots**;
+- **2 preserved console-output logs** from OAK-D / RC dry-run testing;
+- the main project README, test documentation, repository index, requirements files, and project-file notes.
+
+The intention is that someone reviewing the repository can follow the project from **first communication and arming tests → takeoff → yaw → target centering → depth estimation → forward/backward movement → safety-gated follow control**.
+
+## Top-level layout
+
+```text
+.
+├── README.md
+├── REPOSITORY_INDEX.md
+├── PROJECT_FILE_NOTES.md
+├── software/
+│   ├── final/
+│   │   └── phase7_depth_pulse_follow.py
+│   └── companion/
+│       ├── keep_person_centered.py
+│       ├── full_follow_mission.py
+│       └── requirements.txt
+│
+├── tests/
+│   ├── README.md
+│   ├── TEST_PROVENANCE.json
+│   ├── requirements.txt
+│   ├── diagnostics/
+│   ├── real_flight/
+│   ├── motion/
+│   ├── vision/
+│   └── sitl/
+│
+├── ardupilot/
+│   └── parameters/
+│       ├── README.md
+│       ├── gps_baseline_full_params.param
+│       ├── arducopter_4.4.4_optical_flow.param
+│       └── optical_flow_calibration_experiment.param
+│
+└── evidence/
+    └── console-logs/
+        ├── oak_person_test_output.txt
+        └── real_oak_rc6_dry_run_output.txt
+```
+
+## The most important files
+
+| File | Why it matters |
+|---|---|
+| `software/final/phase7_depth_pulse_follow.py` | The largest late-stage motion-control script in the repository. It contains the tuned depth-follow controller, depth filtering, bounded forward/back velocity, pulse/settle behavior, altitude protection, attitude-stability gates, battery/failsafe handling, and automatic LAND behavior. |
+| `software/companion/keep_person_centered.py` | The later companion-computer source for OAK-D person detection, yaw centering, last-seen-direction search, LiDAR altitude guarding, battery-failsafe detection, takeoff, and LAND. |
+| `software/companion/full_follow_mission.py` | An integrated mission-level reference that brings the major follow-me behaviors together in one place. |
+| `tests/README.md` | Detailed map of the staged test progression and what each test was intended to prove. |
+| `tests/TEST_PROVENANCE.json` | File-by-file record showing which historical test sources survived directly and which older standalone tests were restored from the project record. |
+| `ardupilot/parameters/` | Historical parameter snapshots showing the transition between GPS-supported flight, optical-flow experiments, and calibration work. |
+| `evidence/console-logs/` | Preserved output from real OAK-D detection/depth tests and the RC6 dry-run decision loop. |
+
+## Test progression represented in the repository
+
+| Development stage | Representative files | What was being validated |
+|---|---|---|
+| Communications / bench | `initial_coms.py`, `phase0_arm_only.py`, `real_rc6_arm_disarm_test.py` | MAVLink heartbeat, RC input, arm/disarm path |
+| Diagnostics | `arm_failure_debug.py`, `gps_ekf_status_test.py`, `vision_arm_debug.py` | Arming failures, GPS/EKF health, FC status messages |
+| Phase 1 | `phase1_guided_takeoff_land.py`, `phase1a_takeoff_1m_land.py`, `phase1b_guided_takeoff_2m_land.py` | Autonomous takeoff, altitude confirmation, hover and LAND |
+| Phase 2 | `phase2_land_switch_override.py` | Physical RC LAND override during autonomy |
+| Phase 3 | `arm_takeoff_yaw_test.py`, `phase3_yaw_search_fixed.py`, `yaw_rate_sweep_test.py` | Yaw command path, target-search rotation, yaw-rate tuning |
+| Phase 4 | `phase4_yaw_center_simple.py` | Turn until the detected person is centered |
+| Phase 5 | `phase5_altitude_guard_yaw_center.py`, `phase5_keep_center_yaw_optflow.py` | Continuous target centering while protecting altitude |
+| Vision / Phase 6 | `oak_person_stable_test.py`, `phase6_bbox_distance_only.py`, `phase6_distance_data_collection.py`, `phase6_distance_split_test.py` | Person detection, depth quality, distance estimation and OAK-D resource limits |
+| Phase 7A | `phase7a_depth_forward_back.py` | Continuous depth-based forward/back control |
+| Phase 7 safety progression | `phase7a_safe_decision_only.py`, `phase7b_one_pulse_forward_back.py`, `phase7c_repeated_pulse_forward_back.py` | Decision-only validation, one-pulse movement, repeated controlled pulses |
+| Phase 7 final | `phase7_depth_pulse_follow.py` | Tuned pulse follow with altitude, attitude, rate and battery safety gates |
+| GPS-denied branch | `testtest_guided_nogps.py`, `guided_nogps_thrust_test.py` | `GUIDED_NOGPS`, LiDAR-assisted altitude experiments and takeoff-control debugging |
+| SITL | `sitl_takeoff_test.py`, `sitl_yaw_rate_test.py`, `sitl_forward_backward_test.py`, `sitl_follow_test.py`, `sitl_follow_sim.py` | Safe simulation of the same motion and mission building blocks |
+| OAK-D + SITL | `oak_sitl_follow.py` | Real perception output connected to a simulated ArduCopter vehicle |
+
+This staged structure is intentional. The project did not jump directly from person detection to a full autonomous flight. Each capability was isolated first so that failures could be traced to **vision, MAVLink command generation, state estimation, flight mode, or the physical aircraft**.
+
+## Recommended path for reviewing the project
+
+For someone evaluating the project technically, I recommend reading it in this order:
+
+1. **This README** for the design decisions, hardware, failures, and project outcome.
+2. **`software/final/phase7_depth_pulse_follow.py`** for the most developed late-stage movement controller.
+3. **`software/companion/keep_person_centered.py`** for the OAK-D person-centering and altitude-guard logic.
+4. **`tests/README.md`** to see how the controller was developed one behavior at a time.
+5. **`tests/sitl/`** to see how motion was tested before risking the real aircraft.
+6. **`tests/real_flight/`** and **`tests/motion/`** to see the transition to real hardware.
+7. **`ardupilot/parameters/`** and **`evidence/console-logs/`** for configuration and test evidence.
+
+## Python dependencies
+
+The main companion script uses:
+
+```text
+depthai
+pymavlink
+```
+
+The broader historical test suite also uses:
+
+```text
+numpy
+blobconverter
+opencv-python
+```
+
+The repository provides:
+
+```text
+software/companion/requirements.txt
+tests/requirements.txt
+```
+
+A typical development environment can be created with:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install -r software/companion/requirements.txt
+pip install -r tests/requirements.txt
+```
+
+The project crossed more than one DepthAI API generation, so older tests and later tests may require different compatible DepthAI versions. That is part of the project's development history rather than an indication that every archived test should be executed unchanged in one environment.
+
+## Running SITL tests
+
+The safer place to start with the repository is ArduPilot SITL:
+
+```bash
+cd ~/ardupilot
+python3 Tools/autotest/sim_vehicle.py -v ArduCopter --console --map
+```
+
+Then inspect the MAVLink connection endpoint in the selected script before running, for example:
+
+```bash
+python tests/sitl/sitl_takeoff_test.py
+```
+
+The exact UDP port used by SITL can vary depending on how the simulator is launched, so the connection string in a historical test may need to be adjusted.
+
+## Running real-flight scripts
+
+The files under `tests/real_flight/`, `tests/motion/`, and `software/final/` are **experimental UAV control code**, not generic plug-and-play scripts.
+
+Before using any of them on hardware, the operator would need to verify at minimum:
+
+- the MAVLink serial device and baud rate;
+- ArduPilot firmware and flight mode availability;
+- airframe orientation;
+- motor order and direction;
+- RC recovery / override behavior;
+- GPS, rangefinder and optical-flow configuration;
+- battery and failsafe settings;
+- the OAK-D pipeline/API version;
+- the velocity-frame convention;
+- and the physical test environment.
+
+The parameter files in `ardupilot/parameters/` are therefore included as **historical engineering snapshots**, not as files that should be blindly flashed to another aircraft.
+
+## Historical source note
+
+The project conversations retained a large amount of code, test output, filenames, tuning values and debugging history, but not every early standalone `.py` file survived as a raw file. Where an older standalone file was missing but its project record was still available, the test file was restored so the repository would preserve the development sequence.
+
+`tests/TEST_PROVENANCE.json` records that distinction file by file. The repository also keeps the surviving console output and parameter snapshots separately so that the development history remains auditable.
 
 ---
 
@@ -854,6 +1038,16 @@ The next major milestone would be to finish the local-positioning stack with pro
 
 ---
 
+
+## Repository navigation
+
+For the code-first view of the project, see:
+
+- [`REPOSITORY_INDEX.md`](REPOSITORY_INDEX.md)
+- [`tests/README.md`](tests/README.md)
+- [`software/final/phase7_depth_pulse_follow.py`](software/final/phase7_depth_pulse_follow.py)
+- [`software/companion/keep_person_centered.py`](software/companion/keep_person_centered.py)
+
 # 29. Closing Note
 
 The biggest change in my understanding during this project was realizing that an autonomous follow-me drone is not primarily a "person detection" problem.
@@ -891,3 +1085,4 @@ For professional inquiries, collaboration, or questions about the project, pleas
 ## Project Disclaimer
 
 This repository documents an experimental research prototype. It is not a certified commercial flight system, and the software, hardware configurations, parameters, and test procedures should not be treated as production-ready safety guidance. UAV testing should always be performed in accordance with applicable aviation regulations, local laws, equipment limitations, and appropriate safety procedures.
+
