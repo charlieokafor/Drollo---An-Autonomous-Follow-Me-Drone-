@@ -1,8 +1,3 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Historical constants and phase purpose are preserved where available.
-# EXPERIMENTAL UAV SOFTWARE — verify configuration and test safely.
-
 import depthai as dai
 from pymavlink import mavutil
 import time
