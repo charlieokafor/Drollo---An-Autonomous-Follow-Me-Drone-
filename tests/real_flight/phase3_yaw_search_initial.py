@@ -2,8 +2,6 @@ import depthai as dai
 from pymavlink import mavutil
 import time
 
-# Historical first yaw-search version. The yaw-rate value was sent directly into
-# a MAVLink field that expects radians/sec. This file is kept to document the bug.
 SEARCH_YAW_RATE=12.0  # BUG: interpreted as rad/s, not 12 deg/s
 TARGET_ALTITUDE=1.0
 CONFIDENCE_THRESHOLD=0.60
