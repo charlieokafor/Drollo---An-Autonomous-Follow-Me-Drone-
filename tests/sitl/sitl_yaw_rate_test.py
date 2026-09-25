@@ -1,15 +1,6 @@
-# RESTORED PROJECT TEST ARTIFACT
-# This file was restored from the project's original ChatGPT code history.
-# Constants, filenames, phase purpose and control structure are preserved wherever
-# the history retained them. Where the original source bytes were unavailable,
-# glue/boilerplate was reconstructed to make the historical test a standalone file.
-# EXPERIMENTAL UAV SOFTWARE — review configuration and test safely.
-
 from pymavlink import mavutil
 import math
 import time
-
-# Standalone extraction of the yaw-rate tuning that was originally exercised
 # inside the staged scan tests. Rates reflect the historical 3 -> 12 deg/s work.
 RATES_DEG_S = [3.0, 6.0, 12.0]
 RATE_DURATION = 3.0
