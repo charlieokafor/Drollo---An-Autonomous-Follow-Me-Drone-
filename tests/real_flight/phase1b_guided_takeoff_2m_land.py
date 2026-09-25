@@ -1,8 +1,6 @@
 from pymavlink import mavutil
 import time
 
-# A standalone 2 m version restored from the project's Guided-GPS 2 m
-# takeoff test discussion. The original separate filename was not retained.
 TARGET_ALTITUDE = 2.0
 ALTITUDE_REACHED = 1.70  # same 85% reached rule used by the staged tests
 HOVER_SECONDS = 10
