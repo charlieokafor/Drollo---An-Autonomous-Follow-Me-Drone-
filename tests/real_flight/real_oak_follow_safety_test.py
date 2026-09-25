@@ -1,11 +1,3 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Historical constants, outputs and test purpose are preserved where available.
-# EXPERIMENTAL UAV SOFTWARE — review configuration and safety before use.
-
-# This next-stage safety test was designed in the project after the props-off
-# motor-response test. It is included because it documents the intended kill/recovery contract.
-
 from pymavlink import mavutil
 import time
 
