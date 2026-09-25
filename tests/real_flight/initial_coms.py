@@ -1,8 +1,3 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Historical constants and test intent are preserved where available.
-# EXPERIMENTAL UAV SOFTWARE — verify port, mode, parameters and safety before use.
-
 import time
 import depthai as dai
 import blobconverter
