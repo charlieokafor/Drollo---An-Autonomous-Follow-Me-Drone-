@@ -4,7 +4,7 @@
 
 **Author:** Chijindu C. Okafor  
 **Project status:** Current prototype phase complete / paused for further development  
-**Main build and test period:** April–June 2026  
+**Main build and test period:** February–August 2026  
 **Current write-up:** September 2026
 
 ---
