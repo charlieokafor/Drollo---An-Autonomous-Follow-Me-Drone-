@@ -1,0 +1,423 @@
+F:\drone\oak_person_test.py:22: DeprecationWarning: HIGH_DENSITY is deprecated, will be removed in future releases and replaced with DEFAULT.
+  stereo.setDefaultProfilePreset(dai.node.StereoDepth.PresetMode.HIGH_DENSITY)
+[14442C100192E1D600] [1.7] [2.536] [DetectionNetwork(4)] [warning] Network compiled for 6 shaves, maximum available 10, compiling for 5 shaves likely will yield in better performance
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+Person detected | x_offset: 0.13 | distance: 0.75m
+Person detected | x_offset: 0.11 | distance: 0.75m
+Person detected | x_offset: 0.12 | distance: 0.76m
+Person detected | x_offset: 0.11 | distance: 0.77m
+Person detected | x_offset: 0.10 | distance: 0.76m
+Person detected | x_offset: 0.11 | distance: 1.86m
+Person detected | x_offset: 0.12 | distance: 0.74m
+Person detected | x_offset: 0.12 | distance: 0.74m
+Person detected | x_offset: 0.12 | distance: 0.72m
+Person detected | x_offset: 0.11 | distance: 0.77m
+Person detected | x_offset: 0.12 | distance: 0.69m
+Person detected | x_offset: 0.11 | distance: 0.74m
+Person detected | x_offset: 0.11 | distance: 0.74m
+Person detected | x_offset: 0.11 | distance: 0.73m
+Person detected | x_offset: 0.11 | distance: 0.73m
+Person detected | x_offset: 0.13 | distance: 0.73m
+Person detected | x_offset: 0.13 | distance: 0.73m
+Person detected | x_offset: 0.10 | distance: 0.74m
+Person detected | x_offset: 0.09 | distance: 0.74m
+Person detected | x_offset: 0.13 | distance: 0.73m
+Person detected | x_offset: 0.13 | distance: 0.71m
+Person detected | x_offset: 0.13 | distance: 0.72m
+Person detected | x_offset: 0.15 | distance: 0.67m
+Person detected | x_offset: 0.15 | distance: 0.67m
+Person detected | x_offset: 0.19 | distance: 0.66m
+Person detected | x_offset: 0.17 | distance: 0.69m
+Person detected | x_offset: 0.16 | distance: 0.72m
+Person detected | x_offset: 0.06 | distance: 0.91m
+Person detected | x_offset: 0.04 | distance: 1.64m
+Person detected | x_offset: 0.04 | distance: 2.04m
+Person detected | x_offset: 0.07 | distance: 1.33m
+Person detected | x_offset: 0.09 | distance: 1.51m
+Person detected | x_offset: 0.01 | distance: 8.42m
+Person detected | x_offset: 0.01 | distance: 1.55m
+Person detected | x_offset: 0.01 | distance: 0.76m
+Person detected | x_offset: 0.02 | distance: 0.72m
+Person detected | x_offset: 0.01 | distance: 0.63m
+Person detected | x_offset: 0.01 | distance: 0.66m
+Person detected | x_offset: 0.01 | distance: 0.62m
+Person detected | x_offset: 0.01 | distance: unknown
+Person detected | x_offset: 0.02 | distance: 0.52m
+Person detected | x_offset: 0.02 | distance: 0.54m
+Person detected | x_offset: 0.04 | distance: 0.49m
+Person detected | x_offset: 0.03 | distance: 0.45m
+Person detected | x_offset: 0.04 | distance: 0.46m
+Person detected | x_offset: 0.01 | distance: 0.47m
+Person detected | x_offset: 0.01 | distance: unknown
+Person detected | x_offset: 0.02 | distance: 0.43m
+Person detected | x_offset: 0.01 | distance: 0.43m
+Person detected | x_offset: 0.01 | distance: 0.41m
+Person detected | x_offset: 0.01 | distance: unknown
+Person detected | x_offset: 0.01 | distance: 0.40m
+Person detected | x_offset: 0.01 | distance: 0.38m
+Person detected | x_offset: 0.03 | distance: 0.36m
+Person detected | x_offset: 0.03 | distance: 0.44m
+Person detected | x_offset: 0.03 | distance: 0.74m
+Person detected | x_offset: 0.03 | distance: 1.48m
+Person detected | x_offset: 0.03 | distance: 0.47m
+Person detected | x_offset: 0.01 | distance: 0.75m
+Person detected | x_offset: 0.01 | distance: 1.26m
+Person detected | x_offset: 0.02 | distance: 0.81m
+Person detected | x_offset: 0.01 | distance: 1.27m
+Person detected | x_offset: 0.02 | distance: 0.41m
+Person detected | x_offset: 0.01 | distance: 2.43m
+Person detected | x_offset: 0.00 | distance: 1.11m
+Person detected | x_offset: 0.00 | distance: 0.61m
+Person detected | x_offset: 0.00 | distance: unknown
+Person detected | x_offset: -0.01 | distance: unknown
+Person detected | x_offset: -0.01 | distance: 0.41m
+Person detected | x_offset: -0.01 | distance: 3.88m
+Person detected | x_offset: -0.01 | distance: 1.02m
+Person detected | x_offset: 0.00 | distance: 0.45m
+Person detected | x_offset: 0.01 | distance: 0.47m
+Person detected | x_offset: 0.00 | distance: 0.39m
+Person detected | x_offset: 0.01 | distance: 0.39m
+Person detected | x_offset: 0.01 | distance: 0.37m
+Person detected | x_offset: 0.01 | distance: 0.38m
+Person detected | x_offset: 0.01 | distance: 0.38m
+Person detected | x_offset: 0.01 | distance: 0.38m
+Person detected | x_offset: 0.01 | distance: 0.46m
+Person detected | x_offset: 0.01 | distance: 0.37m
+Person detected | x_offset: 0.01 | distance: 0.37m
+Person detected | x_offset: -0.01 | distance: 0.38m
+Person detected | x_offset: -0.01 | distance: 0.43m
+Person detected | x_offset: -0.01 | distance: 0.40m
+Person detected | x_offset: -0.01 | distance: 0.41m
+Person detected | x_offset: 0.00 | distance: unknown
+Person detected | x_offset: 0.00 | distance: unknown
+Person detected | x_offset: 0.07 | distance: 0.41m
+Person detected | x_offset: 0.07 | distance: 0.51m
+Person detected | x_offset: 0.05 | distance: 0.47m
+Person detected | x_offset: 0.05 | distance: 0.50m
+Person detected | x_offset: 0.04 | distance: 0.52m
+Person detected | x_offset: 0.05 | distance: 0.53m
+Person detected | x_offset: 0.00 | distance: 0.50m
+Person detected | x_offset: -0.01 | distance: unknown
+Person detected | x_offset: -0.01 | distance: 0.63m
+Person detected | x_offset: -0.01 | distance: 0.69m
+Person detected | x_offset: -0.02 | distance: 0.70m
+Person detected | x_offset: -0.03 | distance: 0.72m
+Person detected | x_offset: -0.04 | distance: 0.70m
+Person detected | x_offset: -0.07 | distance: 0.73m
+Person detected | x_offset: -0.11 | distance: 1.24m
+Person detected | x_offset: -0.16 | distance: unknown
+Person detected | x_offset: -0.13 | distance: 0.84m
+Person detected | x_offset: -0.08 | distance: 0.73m
+Person detected | x_offset: -0.08 | distance: 0.79m
+Person detected | x_offset: -0.08 | distance: 0.81m
+Person detected | x_offset: -0.11 | distance: 0.86m
+Person detected | x_offset: -0.13 | distance: 0.77m
+Person detected | x_offset: -0.26 | distance: 1.96m
+Person detected | x_offset: -0.10 | distance: 0.85m
+Person detected | x_offset: -0.13 | distance: 0.85m
+Person detected | x_offset: -0.41 | distance: 3.53m
+Person detected | x_offset: -0.43 | distance: 1.73m
+Person detected | x_offset: -0.45 | distance: 12.01m
+Person detected | x_offset: -0.43 | distance: 8.38m
+Person detected | x_offset: -0.39 | distance: 3.34m
+Person detected | x_offset: -0.35 | distance: 3.45m
+Person detected | x_offset: -0.42 | distance: 3.00m
+Person detected | x_offset: -0.21 | distance: 0.82m
+Person detected | x_offset: -0.04 | distance: 2.40m
+Person detected | x_offset: 0.03 | distance: 11.87m
+Person detected | x_offset: 0.12 | distance: unknown
+Person detected | x_offset: 0.03 | distance: 14.22m
+No person
+No person
+Person detected | x_offset: 0.16 | distance: 4.50m
+Person detected | x_offset: 0.21 | distance: 0.72m
+Person detected | x_offset: 0.26 | distance: 0.65m
+No person
+No person
+Person detected | x_offset: 0.27 | distance: 0.56m
+Person detected | x_offset: 0.46 | distance: 0.66m
+Person detected | x_offset: 0.47 | distance: 0.67m
+No person
+No person
+No person
+No person
+No person
+Person detected | x_offset: 0.55 | distance: 0.90m
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+Person detected | x_offset: 0.55 | distance: 1.19m
+Person detected | x_offset: 0.57 | distance: 1.19m
+Person detected | x_offset: 0.57 | distance: 1.13m
+Person detected | x_offset: 0.57 | distance: 1.19m
+Person detected | x_offset: 0.57 | distance: 1.18m
+Person detected | x_offset: 0.56 | distance: 1.22m
+Person detected | x_offset: 0.54 | distance: 1.21m
+No person
+No person
+No person
+Person detected | x_offset: 0.43 | distance: 1.46m
+Person detected | x_offset: 0.41 | distance: 1.43m
+Person detected | x_offset: 0.39 | distance: 1.46m
+Person detected | x_offset: 0.39 | distance: 1.46m
+Person detected | x_offset: 0.39 | distance: 1.59m
+Person detected | x_offset: 0.39 | distance: 1.72m
+Person detected | x_offset: 0.40 | distance: 1.62m
+Person detected | x_offset: 0.41 | distance: 1.77m
+Person detected | x_offset: 0.43 | distance: 1.78m
+Person detected | x_offset: 0.46 | distance: 1.83m
+Person detected | x_offset: 0.47 | distance: 1.87m
+Person detected | x_offset: 0.51 | distance: 2.15m
+Person detected | x_offset: 0.51 | distance: 1.87m
+Person detected | x_offset: 0.52 | distance: 1.87m
+Person detected | x_offset: 0.48 | distance: 1.87m
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+Person detected | x_offset: 0.34 | distance: 1.98m
+No person
+Person detected | x_offset: 0.39 | distance: 2.08m
+No person
+No person
+Person detected | x_offset: 0.43 | distance: 3.79m
+Person detected | x_offset: 0.45 | distance: 7.74m
+No person
+Person detected | x_offset: 0.48 | distance: 9.98m
+No person
+Person detected | x_offset: 0.50 | distance: 10.18m
+Person detected | x_offset: 0.50 | distance: 12.68m
+Person detected | x_offset: 0.50 | distance: 12.23m
+No person
+No person
+No person
+Person detected | x_offset: 0.45 | distance: 2.51m
+Person detected | x_offset: 0.39 | distance: 2.40m
+Person detected | x_offset: 0.39 | distance: 2.46m
+Person detected | x_offset: 0.33 | distance: 2.51m
+Person detected | x_offset: 0.31 | distance: 2.55m
+Person detected | x_offset: 0.30 | distance: 2.58m
+Person detected | x_offset: 0.27 | distance: 2.57m
+Person detected | x_offset: 0.26 | distance: 2.54m
+Person detected | x_offset: 0.26 | distance: 2.61m
+Person detected | x_offset: 0.27 | distance: 2.74m
+Person detected | x_offset: 0.27 | distance: 2.68m
+Person detected | x_offset: 0.28 | distance: 2.70m
+Person detected | x_offset: 0.28 | distance: 2.76m
+Person detected | x_offset: 0.30 | distance: 2.91m
+Person detected | x_offset: 0.32 | distance: 2.18m
+Person detected | x_offset: 0.33 | distance: 3.02m
+Person detected | x_offset: 0.38 | distance: 12.89m
+Person detected | x_offset: 0.35 | distance: 3.16m
+Person detected | x_offset: 0.39 | distance: 3.17m
+Person detected | x_offset: 0.36 | distance: 3.37m
+Person detected | x_offset: 0.39 | distance: 2.94m
+Person detected | x_offset: 0.33 | distance: 2.93m
+Person detected | x_offset: 0.32 | distance: 2.90m
+Person detected | x_offset: 0.31 | distance: 2.84m
+Person detected | x_offset: 0.27 | distance: 2.84m
+Person detected | x_offset: 0.24 | distance: 2.85m
+Person detected | x_offset: 0.15 | distance: 2.86m
+Person detected | x_offset: 0.15 | distance: 2.82m
+Person detected | x_offset: 0.14 | distance: 2.86m
+Person detected | x_offset: 0.14 | distance: 2.91m
+Person detected | x_offset: 0.15 | distance: 2.92m
+Person detected | x_offset: 0.15 | distance: 2.96m
+Person detected | x_offset: 0.15 | distance: 3.04m
+Person detected | x_offset: 0.16 | distance: 3.08m
+Person detected | x_offset: 0.17 | distance: 3.12m
+Person detected | x_offset: 0.21 | distance: 3.21m
+Person detected | x_offset: 0.23 | distance: 3.23m
+Person detected | x_offset: 0.22 | distance: 3.22m
+Person detected | x_offset: 0.23 | distance: 3.28m
+Person detected | x_offset: 0.23 | distance: 3.22m
+Person detected | x_offset: 0.22 | distance: 3.24m
+Person detected | x_offset: 0.22 | distance: 3.29m
+Person detected | x_offset: 0.22 | distance: 3.27m
+Person detected | x_offset: 0.22 | distance: 3.32m
+Person detected | x_offset: 0.22 | distance: 3.34m
+Person detected | x_offset: 0.22 | distance: 3.27m
+Person detected | x_offset: 0.22 | distance: 3.35m
+Person detected | x_offset: 0.21 | distance: 3.29m
+Person detected | x_offset: 0.21 | distance: 3.35m
+Person detected | x_offset: 0.21 | distance: 3.34m
+Person detected | x_offset: 0.22 | distance: 3.38m
+Person detected | x_offset: 0.21 | distance: 3.36m
+Person detected | x_offset: 0.21 | distance: 3.38m
+Person detected | x_offset: 0.20 | distance: 3.43m
+Person detected | x_offset: 0.20 | distance: 3.41m
+Person detected | x_offset: 0.15 | distance: 3.32m
+Person detected | x_offset: 0.13 | distance: 3.23m
+Person detected | x_offset: 0.11 | distance: 3.30m
+Person detected | x_offset: 0.11 | distance: 3.32m
+Person detected | x_offset: 0.10 | distance: 3.31m
+Person detected | x_offset: 0.10 | distance: 3.34m
+Person detected | x_offset: 0.09 | distance: 3.37m
+Person detected | x_offset: 0.09 | distance: 3.36m
+Person detected | x_offset: 0.09 | distance: 3.36m
+Person detected | x_offset: 0.09 | distance: 3.35m
+Person detected | x_offset: 0.09 | distance: 3.38m
+Person detected | x_offset: 0.09 | distance: 3.26m
+Person detected | x_offset: 0.09 | distance: 3.38m
+Person detected | x_offset: 0.09 | distance: 3.27m
+Person detected | x_offset: 0.09 | distance: 3.34m
+Person detected | x_offset: 0.09 | distance: 3.27m
+Person detected | x_offset: 0.09 | distance: 3.35m
+Person detected | x_offset: 0.09 | distance: 3.39m
+Person detected | x_offset: 0.09 | distance: 3.36m
+Person detected | x_offset: 0.09 | distance: 3.35m
+Person detected | x_offset: 0.09 | distance: 3.34m
+Person detected | x_offset: 0.09 | distance: 3.37m
+Person detected | x_offset: 0.10 | distance: 3.41m
+Person detected | x_offset: 0.10 | distance: 3.45m
+Person detected | x_offset: 0.09 | distance: 3.31m
+Person detected | x_offset: 0.10 | distance: 3.47m
+Person detected | x_offset: 0.08 | distance: 3.37m
+Person detected | x_offset: 0.07 | distance: 3.33m
+Person detected | x_offset: 0.06 | distance: 3.32m
+Person detected | x_offset: 0.07 | distance: 3.32m
+No person
+Person detected | x_offset: 0.04 | distance: 3.30m
+Person detected | x_offset: 0.05 | distance: 3.33m
+Person detected | x_offset: 0.04 | distance: 3.32m
+Person detected | x_offset: 0.03 | distance: 3.33m
+Person detected | x_offset: 0.03 | distance: 3.34m
+Person detected | x_offset: 0.03 | distance: 3.31m
+Person detected | x_offset: 0.02 | distance: 3.28m
+Person detected | x_offset: 0.02 | distance: 3.34m
+Person detected | x_offset: 0.02 | distance: 3.36m
+Person detected | x_offset: 0.01 | distance: 3.42m
+Person detected | x_offset: 0.02 | distance: 3.31m
+No person
+Person detected | x_offset: 0.08 | distance: 3.32m
+Person detected | x_offset: 0.09 | distance: 3.31m
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+Person detected | x_offset: 0.09 | distance: 3.25m
+Person detected | x_offset: 0.08 | distance: 3.16m
+Person detected | x_offset: 0.07 | distance: 3.26m
+Person detected | x_offset: 0.09 | distance: 3.33m
+Person detected | x_offset: 0.09 | distance: 3.27m
+Person detected | x_offset: 0.09 | distance: 3.27m
+Person detected | x_offset: 0.10 | distance: 3.25m
+Person detected | x_offset: 0.11 | distance: 3.29m
+Person detected | x_offset: 0.17 | distance: 3.35m
+Person detected | x_offset: 0.19 | distance: 3.52m
+Person detected | x_offset: 0.21 | distance: 3.56m
+Person detected | x_offset: 0.20 | distance: 3.53m
+Person detected | x_offset: 0.19 | distance: 3.52m
+Person detected | x_offset: 0.15 | distance: 3.41m
+Person detected | x_offset: 0.15 | distance: 3.42m
+Person detected | x_offset: 0.20 | distance: 3.48m
+Person detected | x_offset: 0.20 | distance: 3.33m
+Person detected | x_offset: 0.20 | distance: 3.48m
+Person detected | x_offset: 0.20 | distance: 3.34m
+Person detected | x_offset: 0.20 | distance: 3.38m
+Person detected | x_offset: 0.20 | distance: 3.38m
+Person detected | x_offset: 0.20 | distance: 3.42m
+Person detected | x_offset: 0.20 | distance: 3.32m
+Person detected | x_offset: 0.21 | distance: 3.30m
+Person detected | x_offset: 0.20 | distance: 3.32m
+Person detected | x_offset: 0.20 | distance: 3.35m
+Person detected | x_offset: 0.20 | distance: 3.36m
+Person detected | x_offset: 0.15 | distance: 3.33m
+Person detected | x_offset: 0.15 | distance: 3.32m
+Person detected | x_offset: 0.14 | distance: 3.27m
+Person detected | x_offset: 0.13 | distance: 3.29m
+Person detected | x_offset: 0.14 | distance: 3.22m
+Person detected | x_offset: 0.14 | distance: 3.23m
+Person detected | x_offset: 0.25 | distance: 3.43m
+Person detected | x_offset: 0.27 | distance: 3.47m
+Person detected | x_offset: 0.29 | distance: 1.89m
+Person detected | x_offset: 0.30 | distance: 2.96m
+Person detected | x_offset: 0.33 | distance: 3.58m
+Person detected | x_offset: 0.38 | distance: 3.60m
+Person detected | x_offset: 0.37 | distance: 2.19m
+Person detected | x_offset: 0.37 | distance: 1.64m
+Person detected | x_offset: 0.33 | distance: 2.04m
+Person detected | x_offset: 0.29 | distance: 3.05m
+Person detected | x_offset: 0.26 | distance: 2.88m
+Person detected | x_offset: 0.23 | distance: 2.82m
+Person detected | x_offset: 0.23 | distance: 2.79m
+Person detected | x_offset: 0.23 | distance: 2.70m
+Person detected | x_offset: 0.25 | distance: 2.70m
+Person detected | x_offset: 0.31 | distance: 2.63m
+Person detected | x_offset: 0.37 | distance: 2.72m
+Person detected | x_offset: 0.40 | distance: 2.58m
+Person detected | x_offset: 0.42 | distance: 4.24m
+Person detected | x_offset: 0.44 | distance: 3.59m
+Person detected | x_offset: 0.43 | distance: 12.93m
+Person detected | x_offset: 0.43 | distance: 2.46m
+Person detected | x_offset: 0.39 | distance: 3.23m
+Person detected | x_offset: 0.37 | distance: 2.15m
+Person detected | x_offset: 0.36 | distance: 2.11m
+Person detected | x_offset: 0.35 | distance: 1.99m
+Person detected | x_offset: 0.35 | distance: 1.98m
+Person detected | x_offset: 0.36 | distance: 1.94m
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+No person
+Person detected | x_offset: 0.05 | distance: 1.25m
+Person detected | x_offset: 0.01 | distance: 1.41m
+Person detected | x_offset: -0.01 | distance: 1.21m
+Person detected | x_offset: 0.00 | distance: 1.13m
+Person detected | x_offset: -0.03 | distance: 1.08m
+Person detected | x_offset: -0.02 | distance: 0.97m
+Person detected | x_offset: 0.04 | distance: 0.74m
+No person
+No person
+Person detected | x_offset: 0.06 | distance: 0.59m
+Person detected | x_offset: -0.05 | distance: 0.61m
+Person detected | x_offset: -0.05 | distance: 0.54m
+Person detected | x_offset: -0.07 | distance: 0.52m
+Person detected | x_offset: -0.09 | distance: 0.55m
+Person detected | x_offset: -0.07 | distance: 0.63m
+Person detected | x_offset: -0.03 | distance: 0.73m
+Person detected | x_offset: -0.03 | distance: 0.76m
+Person detected | x_offset: -0.03 | distance: 0.74m
+Person detected | x_offset: -0.03 | distance: 0.74m
+Person detected | x_offset: -0.03 | distance: 0.75m
+Person detected | x_offset: -0.03 | distance: 0.76m
+Person detected | x_offset: -0.03 | distance: 0.75m
+Person detected | x_offset: -0.03 | distance: 0.74m
+Person detected | x_offset: -0.03 | distance: 0.73m
+Person detected | x_offset: -0.03 | distance: 0.70m
+Person detected | x_offset: -0.03 | distance: 0.73m
+Person detected | x_offset: -0.03 | distance: 0.70m
+Person detected | x_offset: -0.03 | distance: 0.70m
+Traceback (most recent call last):
+  File "F:\drone\oak_person_test.py", line 56, in <module>
+    detections = q_nn.get().detections
+                 ^^^^^^^^^^
+KeyboardInterrupt
+PS C:\Users\charliepips>
