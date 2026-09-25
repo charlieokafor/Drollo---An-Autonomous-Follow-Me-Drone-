@@ -1,12 +1,3 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Historical constants, outputs and phase purpose are preserved where available.
-# EXPERIMENTAL UAV SOFTWARE — review before use.
-
-# Historical Phase 6 attempt: YOLO + StereoDepth concurrently.
-# This version was important because it exposed the OAK-D SHAVE resource limit:
-# the YOLO blob wanted 8 shaves while only 7 remained when stereo depth was active.
-
 import csv
 import depthai as dai
 import numpy as np
