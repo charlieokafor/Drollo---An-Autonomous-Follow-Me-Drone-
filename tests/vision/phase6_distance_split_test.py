@@ -1,10 +1,3 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Historical constants, outputs and phase purpose are preserved where available.
-# EXPERIMENTAL UAV SOFTWARE — review before use.
-
-# Split resource test created after the simultaneous YOLO+StereoDepth SHAVE failure.
-
 import csv
 import depthai as dai
 import numpy as np
