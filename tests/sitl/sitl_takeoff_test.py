@@ -3,7 +3,6 @@ import time
 
 TAKEOFF_ALTITUDE = 3.0
 
-# Original SITL endpoint used for the direct ArduPilot TCP test.
 master = mavutil.mavlink_connection("tcp:127.0.0.1:5760")
 print("Waiting for heartbeat...")
 master.wait_heartbeat()
