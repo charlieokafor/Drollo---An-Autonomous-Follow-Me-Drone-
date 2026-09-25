@@ -1,8 +1,3 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Historical constants and staged-test intent are preserved where available.
-# EXPERIMENTAL UAV SOFTWARE — review configuration and safety before use.
-
 import depthai as dai
 import numpy as np
 from collections import deque
