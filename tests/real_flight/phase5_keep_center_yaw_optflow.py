@@ -1,15 +1,3 @@
-# RECOVERED SOURCE — historical filename identified from project history: phase5_keep_center_yaw_optflow.py
-# This copy preserves the recovered code verbatim below this provenance note.
-
-# Autonomous follow-me drone — recovered project source
-#
-# Recovered from the archived June 2026 project code. The original standalone
-# filename was not preserved in the stored artifact, so this descriptive name
-# is used for the GitHub repository. The control logic below is the recovered
-# source, not a newly invented replacement.
-#
-# EXPERIMENTAL UAV SOFTWARE: review configuration and safety conditions before use.
-
 import depthai as dai
 from pymavlink import mavutil
 import time
