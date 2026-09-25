@@ -1,9 +1,3 @@
-# RESTORED PROJECT TEST ARTIFACT
-# Restored from the project's recorded code and conversation history.
-# Where a standalone source filename was not retained, this file isolates the
-# exact staged behavior that was previously tested inside a larger phase script.
-# EXPERIMENTAL UAV SOFTWARE — review configuration and safety before use.
-
 import depthai as dai
 import blobconverter
 import numpy as np
