@@ -1,0 +1,411 @@
+PS C:\Users\charliepips> python "F:\drone\real_oak_rc6_dry_run.py"
+Connected to real flight controller
+PROPS OFF
+DRY RUN ONLY - no arming, no motor movement
+Move RC6 to MIDDLE first...
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 1503
+RC6: 1503
+RC6: 1503
+RC6: 1503
+RC6: 1503
+Now flip RC6 DOWN to start dry-run...
+RC6: 1503
+RC6: 1503
+RC6: 1503
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6: 999
+RC6 DOWN confirmed. Dry-run started.
+[14442C100192E1D600] [2.4] [1.406] [DetectionNetwork(4)] [warning] Network compiled for 6 shaves, maximum available 7, compiling for 3 shaves likely will yield in better performance
+TRACK | x=0.21 | distance=1.69m | TURN RIGHT | BACK UP
+TRACK | x=0.22 | distance=1.69m | TURN RIGHT | BACK UP
+TRACK | x=0.23 | distance=1.69m | TURN RIGHT | BACK UP
+TRACK | x=0.24 | distance=1.71m | TURN RIGHT | BACK UP
+TRACK | x=0.24 | distance=1.74m | TURN RIGHT | BACK UP
+TRACK | x=0.27 | distance=1.74m | TURN RIGHT | BACK UP
+TRACK | x=0.28 | distance=1.75m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=1.75m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=1.77m | TURN RIGHT | BACK UP
+NO PERSON | WOULD SEARCH / SLOW YAW
+TRACK | x=0.31 | distance=1.78m | TURN RIGHT | BACK UP
+TRACK | x=0.33 | distance=1.79m | TURN RIGHT | BACK UP
+TRACK | x=0.34 | distance=1.81m | TURN RIGHT | BACK UP
+TRACK | x=0.34 | distance=1.84m | TURN RIGHT | BACK UP
+TRACK | x=0.34 | distance=1.84m | TURN RIGHT | BACK UP
+TRACK | x=0.32 | distance=1.86m | TURN RIGHT | BACK UP
+TRACK | x=0.27 | distance=1.86m | TURN RIGHT | BACK UP
+TRACK | x=0.20 | distance=1.86m | TURN RIGHT | BACK UP
+TRACK | x=0.14 | distance=1.88m | TURN RIGHT | BACK UP
+TRACK | x=0.09 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=0.08 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=0.00 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=-0.04 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=-0.04 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=-0.04 | distance=1.85m | HOLD YAW | BACK UP
+TRACK | x=-0.04 | distance=1.85m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.85m | HOLD YAW | BACK UP
+TRACK | x=0.05 | distance=1.85m | HOLD YAW | BACK UP
+TRACK | x=0.12 | distance=1.85m | TURN RIGHT | BACK UP
+TRACK | x=0.15 | distance=1.86m | TURN RIGHT | BACK UP
+TRACK | x=0.16 | distance=1.86m | TURN RIGHT | BACK UP
+TRACK | x=0.22 | distance=1.86m | TURN RIGHT | BACK UP
+TRACK | x=0.26 | distance=1.88m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=1.89m | TURN RIGHT | BACK UP
+TRACK | x=0.31 | distance=1.96m | TURN RIGHT | BACK UP
+TRACK | x=0.31 | distance=1.99m | TURN RIGHT | BACK UP
+TRACK | x=0.31 | distance=2.00m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=2.00m | TURN RIGHT | BACK UP
+TRACK | x=0.29 | distance=2.00m | TURN RIGHT | BACK UP
+TRACK | x=0.27 | distance=2.00m | TURN RIGHT | BACK UP
+TRACK | x=0.23 | distance=2.00m | TURN RIGHT | BACK UP
+TRACK | x=0.19 | distance=2.03m | TURN RIGHT | BACK UP
+TRACK | x=0.18 | distance=2.03m | TURN RIGHT | BACK UP
+TRACK | x=0.10 | distance=2.06m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.06m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=2.06m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=2.06m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=2.06m | HOLD YAW | BACK UP
+NO PERSON | WOULD SEARCH / SLOW YAW
+TRACK | x=0.06 | distance=2.06m | HOLD YAW | BACK UP
+TRACK | x=0.14 | distance=2.07m | TURN RIGHT | BACK UP
+TRACK | x=0.26 | distance=2.07m | TURN RIGHT | BACK UP
+TRACK | x=0.28 | distance=2.29m | TURN RIGHT | BACK UP
+TRACK | x=0.28 | distance=2.29m | TURN RIGHT | BACK UP
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+TRACK | x=0.28 | distance=2.29m | TURN RIGHT | BACK UP
+TRACK | x=0.25 | distance=2.29m | TURN RIGHT | BACK UP
+TRACK | x=0.08 | distance=2.29m | HOLD YAW | BACK UP
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+TRACK | x=0.08 | distance=2.29m | HOLD YAW | BACK UP
+TRACK | x=0.08 | distance=2.29m | HOLD YAW | BACK UP
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+TRACK | x=0.08 | distance=2.29m | HOLD YAW | BACK UP
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+NO PERSON | WOULD SEARCH / SLOW YAW
+TRACK | x=0.08 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=0.08 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=0.23 | distance=1.40m | TURN RIGHT | BACK UP
+TRACK | x=0.25 | distance=1.40m | TURN RIGHT | BACK UP
+TRACK | x=0.27 | distance=1.40m | TURN RIGHT | BACK UP
+TRACK | x=0.29 | distance=1.40m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=1.47m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=1.52m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=1.53m | TURN RIGHT | BACK UP
+TRACK | x=0.30 | distance=1.59m | TURN RIGHT | BACK UP
+TRACK | x=0.29 | distance=1.68m | TURN RIGHT | BACK UP
+TRACK | x=0.28 | distance=1.77m | TURN RIGHT | BACK UP
+TRACK | x=0.25 | distance=1.81m | TURN RIGHT | BACK UP
+TRACK | x=0.22 | distance=1.83m | TURN RIGHT | BACK UP
+TRACK | x=0.17 | distance=1.87m | TURN RIGHT | BACK UP
+TRACK | x=0.15 | distance=1.87m | TURN RIGHT | BACK UP
+TRACK | x=0.07 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=1.89m | HOLD YAW | BACK UP
+TRACK | x=0.00 | distance=1.89m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.89m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.91m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.97m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.97m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=2.02m | HOLD YAW | BACK UP
+TRACK | x=0.00 | distance=2.03m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=2.05m | HOLD YAW | BACK UP
+TRACK | x=0.06 | distance=2.07m | HOLD YAW | BACK UP
+TRACK | x=0.09 | distance=2.12m | HOLD YAW | BACK UP
+TRACK | x=0.12 | distance=2.13m | TURN RIGHT | BACK UP
+TRACK | x=0.17 | distance=2.15m | TURN RIGHT | BACK UP
+TRACK | x=0.18 | distance=2.21m | TURN RIGHT | BACK UP
+TRACK | x=0.18 | distance=2.22m | TURN RIGHT | BACK UP
+TRACK | x=0.18 | distance=2.22m | TURN RIGHT | BACK UP
+TRACK | x=0.17 | distance=2.25m | TURN RIGHT | BACK UP
+TRACK | x=0.17 | distance=2.26m | TURN RIGHT | BACK UP
+TRACK | x=0.15 | distance=2.25m | TURN RIGHT | BACK UP
+TRACK | x=0.12 | distance=2.26m | TURN RIGHT | BACK UP
+TRACK | x=0.09 | distance=2.26m | HOLD YAW | BACK UP
+TRACK | x=0.07 | distance=2.26m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.28m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=2.29m | HOLD YAW | BACK UP
+TRACK | x=-0.03 | distance=2.30m | HOLD YAW | BACK UP
+TRACK | x=-0.04 | distance=2.30m | HOLD YAW | BACK UP
+TRACK | x=-0.06 | distance=2.30m | HOLD YAW | BACK UP
+TRACK | x=-0.06 | distance=2.32m | HOLD YAW | BACK UP
+TRACK | x=-0.07 | distance=2.34m | HOLD YAW | BACK UP
+TRACK | x=-0.07 | distance=2.36m | HOLD YAW | BACK UP
+TRACK | x=-0.07 | distance=2.36m | HOLD YAW | BACK UP
+TRACK | x=-0.03 | distance=2.37m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=2.38m | HOLD YAW | BACK UP
+TRACK | x=0.00 | distance=2.39m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=2.42m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=2.51m | HOLD YAW | BACK UP
+TRACK | x=0.02 | distance=2.51m | HOLD YAW | BACK UP
+TRACK | x=0.02 | distance=2.51m | HOLD YAW | BACK UP
+TRACK | x=0.02 | distance=2.52m | HOLD YAW | BACK UP
+TRACK | x=0.02 | distance=2.51m | HOLD YAW | BACK UP
+TRACK | x=0.02 | distance=2.51m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.51m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.50m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.48m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.48m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.47m | HOLD YAW | BACK UP
+TRACK | x=0.03 | distance=2.41m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=2.38m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=2.32m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=2.27m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=2.25m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=-0.03 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=-0.03 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=-0.03 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=0.04 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=0.05 | distance=2.19m | HOLD YAW | BACK UP
+TRACK | x=0.11 | distance=2.19m | TURN RIGHT | BACK UP
+TRACK | x=0.19 | distance=2.20m | TURN RIGHT | BACK UP
+TRACK | x=0.29 | distance=2.29m | TURN RIGHT | BACK UP
+TRACK | x=0.29 | distance=2.86m | TURN RIGHT | HOVER - GOOD DISTANCE
+TRACK | x=0.29 | distance=3.14m | TURN RIGHT | HOVER - GOOD DISTANCE
+TRACK | x=0.28 | distance=3.14m | TURN RIGHT | HOVER - GOOD DISTANCE
+TRACK | x=0.21 | distance=3.14m | TURN RIGHT | HOVER - GOOD DISTANCE
+TRACK | x=0.17 | distance=2.86m | TURN RIGHT | HOVER - GOOD DISTANCE
+TRACK | x=0.12 | distance=2.10m | TURN RIGHT | BACK UP
+TRACK | x=0.06 | distance=2.06m | HOLD YAW | BACK UP
+TRACK | x=0.04 | distance=2.01m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.97m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.95m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.88m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.77m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=1.70m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=1.65m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=1.58m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=1.55m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=1.53m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=1.53m | HOLD YAW | BACK UP
+TRACK | x=-0.00 | distance=1.52m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.50m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.50m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.49m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.49m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.49m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.49m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.49m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.49m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.49m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.52m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.52m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.52m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.52m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.52m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.50m | HOLD YAW | BACK UP
+TRACK | x=-0.01 | distance=1.50m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.50m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.51m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.51m | HOLD YAW | BACK UP
+TRACK | x=-0.03 | distance=1.53m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.54m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.54m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.54m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.52m | HOLD YAW | BACK UP
+TRACK | x=-0.02 | distance=1.54m | HOLD YAW | BACK UP
+TRACK | x=0.00 | distance=1.54m | HOLD YAW | BACK UP
+TRACK | x=0.04 | distance=1.54m | HOLD YAW | BACK UP
+TRACK | x=0.04 | distance=1.54m | HOLD YAW | BACK UP
+TRACK | x=0.04 | distance=1.62m | HOLD YAW | BACK UP
+TRACK | x=0.04 | distance=1.66m | HOLD YAW | BACK UP
+TRACK | x=0.01 | distance=1.71m | HOLD YAW | BACK UP
+TRACK | x=-0.04 | distance=1.78m | HOLD YAW | BACK UP
+TRACK | x=-0.07 | distance=1.93m | HOLD YAW | BACK UP
+TRACK | x=-0.14 | distance=2.09m | TURN LEFT | BACK UP
+TRACK | x=-0.19 | distance=2.18m | TURN LEFT | BACK UP
+TRACK | x=-0.24 | distance=2.18m | TURN LEFT | BACK UP
+TRACK | x=-0.29 | distance=2.27m | TURN LEFT | BACK UP
+TRACK | x=-0.29 | distance=2.42m | TURN LEFT | BACK UP
+TRACK | x=-0.29 | distance=2.42m | TURN LEFT | BACK UP
+TRACK | x=-0.29 | distance=2.43m | TURN LEFT | BACK UP
+TRACK | x=-0.27 | distance=2.43m | TURN LEFT | BACK UP
+TRACK | x=-0.26 | distance=2.48m | TURN LEFT | BACK UP
+TRACK | x=-0.24 | distance=2.48m | TURN LEFT | BACK UP
+TRACK | x=-0.18 | distance=2.48m | TURN LEFT | BACK UP
+TRACK | x=-0.15 | distance=2.52m | TURN LEFT | BACK UP
+TRACK | x=-0.12 | distance=2.52m | TURN LEFT | BACK UP
+TRACK | x=-0.11 | distance=2.53m | TURN LEFT | BACK UP
+TRACK | x=-0.11 | distance=2.56m | TURN LEFT | BACK UP
+TRACK | x=-0.11 | distance=2.65m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.66m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.14 | distance=2.66m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.14 | distance=2.67m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.15 | distance=2.69m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=2.70m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.17 | distance=2.70m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.17 | distance=2.75m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=2.76m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=2.78m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=2.78m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=2.76m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=2.78m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.17 | distance=2.78m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.26 | distance=2.78m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.26 | distance=3.06m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.29 | distance=3.10m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.33 | distance=3.10m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.38 | distance=3.16m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.46 | distance=3.10m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.46 | distance=3.10m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.46 | distance=3.20m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.44 | distance=3.33m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.44 | distance=3.02m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.40 | distance=3.02m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.34 | distance=3.02m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.32 | distance=3.09m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.32 | distance=3.12m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.32 | distance=3.12m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.35 | distance=3.12m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.35 | distance=3.22m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.35 | distance=3.43m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.35 | distance=3.43m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.34 | distance=3.43m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.32 | distance=3.31m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.31 | distance=3.31m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.28 | distance=3.24m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.26 | distance=3.14m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.25 | distance=3.14m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.25 | distance=3.06m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.24 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.15 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.14 | distance=3.06m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.14 | distance=3.06m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.13 | distance=3.06m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.13 | distance=3.08m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=3.10m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=3.10m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.11m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.11m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.12m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.15m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.15m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.12m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.12m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.10 | distance=3.08m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=3.05m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=3.05m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.13 | distance=2.96m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.18 | distance=3.05m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.18 | distance=3.05m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.19 | distance=3.08m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.20 | distance=3.02m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.23 | distance=3.08m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.27 | distance=3.08m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.32 | distance=3.33m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.37 | distance=3.58m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.46 | distance=3.58m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.49 | distance=3.80m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.50 | distance=3.80m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.53 | distance=3.56m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.54 | distance=3.80m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.55 | distance=3.60m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.56 | distance=3.60m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.57 | distance=3.60m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.57 | distance=3.60m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.57 | distance=3.60m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.57 | distance=3.66m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.60 | distance=3.66m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.60 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.61 | distance=3.75m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.61 | distance=3.75m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.60 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.61 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.61 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.61 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.60 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.61 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.60 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.61 | distance=3.70m | TURN LEFT | MOVE FORWARD
+TRACK | x=-0.60 | distance=3.38m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.61 | distance=3.38m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.60 | distance=3.31m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.60 | distance=3.31m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.60 | distance=3.31m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.57 | distance=3.31m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.54 | distance=3.31m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.50 | distance=3.19m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.46 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.44 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.29 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.25 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.23 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.23 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.23 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.25 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.25 | distance=3.04m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.25 | distance=2.94m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.24 | distance=2.86m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.18 | distance=2.86m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.15 | distance=2.94m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.94m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.06 | distance=2.97m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.06 | distance=2.94m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.06 | distance=2.94m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.06 | distance=2.94m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.06 | distance=2.87m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.09 | distance=2.85m | HOLD YAW | HOVER - GOOD DISTANCE
+TRACK | x=-0.14 | distance=2.85m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.15 | distance=2.85m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.24 | distance=2.85m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.24 | distance=2.85m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.24 | distance=2.88m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.23 | distance=2.90m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.16 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.15 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.14 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.13 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.99m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.99m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.12 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.99m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.99m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.99m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.98m | TURN LEFT | HOVER - GOOD DISTANCE
+TRACK | x=-0.11 | distance=2.97m | TURN LEFT | HOVER - GOOD DISTANCE
+Dry-run complete
+PS C:\Users\charliepips>

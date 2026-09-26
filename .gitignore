@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated recordings / large flight artifacts
+*.mov
+*.avi
+*.bin
+*.BIN
+*.ulg
+
+# Local environment / secrets
+.env
+.env.*

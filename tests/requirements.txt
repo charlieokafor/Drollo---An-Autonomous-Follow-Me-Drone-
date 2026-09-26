@@ -1,0 +1,6 @@
+# Union of dependencies used across the historical tests.
+pymavlink
+depthai
+numpy
+blobconverter
+opencv-python
