@@ -1,8 +1,16 @@
+# RESTORED PROJECT TEST ARTIFACT
+# This file was restored from the project's original ChatGPT code history.
+# Constants, filenames, phase purpose and control structure are preserved wherever
+# the history retained them. Where the original source bytes were unavailable,
+# glue/boilerplate was reconstructed to make the historical test a standalone file.
+# EXPERIMENTAL UAV SOFTWARE — review configuration and test safely.
+
 from pymavlink import mavutil
 import time
 
 TAKEOFF_ALTITUDE = 3.0
 
+# Original SITL endpoint used for the direct ArduPilot TCP test.
 master = mavutil.mavlink_connection("tcp:127.0.0.1:5760")
 print("Waiting for heartbeat...")
 master.wait_heartbeat()
